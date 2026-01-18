@@ -19,7 +19,7 @@ CORS(app)
 # ============================================
 # CONFIGURATION
 # ============================================
-API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyDgXM23SMpUC1KvJHLkd1n_3e5lOYQzYV0')
+API_KEY = os.environ.get('GEMINI_API_KEY', 'Use your API Key')
 
 # ============================================
 # USER PROFILE (Simulated)
