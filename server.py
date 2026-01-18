@@ -19,7 +19,7 @@ CORS(app)
 # ============================================
 # CONFIGURATION
 # ============================================
-API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyDgXM23SMpUC1KvJHLkd1n_3e5lOYQzYV0')
+API_KEY = os.environ.get('GEMINI_API_KEY')
 
 # ============================================
 # USER PROFILE (Simulated)
@@ -321,7 +321,7 @@ def parse_gemini_response(response):
 
 @app.route('/')
 def index():
-    return send_from_directory('static', 'index.html')
+    return send_from_directory('.', 'index.html')     
 
 @app.route('/api/user', methods=['GET'])
 def get_user():
