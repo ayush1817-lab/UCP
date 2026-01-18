@@ -497,7 +497,9 @@ if __name__ == '__main__':
     print("\n" + "=" * 50)
     print("🛒 UCP + AP2 Shopping Agent - Web Server")
     print("=" * 50)
-    print("\nStarting server at http://localhost:5000")
-    print("Open this URL in your browser to use the demo.\n")
     
-    app.run(debug=True, port=5000)
+    # CRITICAL FIX for Render: Get port from environment or use 5000 locally
+    port = int(os.environ.get('PORT', 5000))
+    
+    # CRITICAL FIX for Render: Host must be '0.0.0.0' (Public), not '127.0.0.1' (Local)
+    app.run(host='0.0.0.0', port=port)
