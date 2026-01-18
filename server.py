@@ -13,7 +13,7 @@ import random
 import string
 import os
 
-app = Flask(__name__, static_folder='static')
+app = Flask(__name__, static_folder='.')
 CORS(app)
 
 # ============================================
