@@ -1,0 +1,104 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Nike Air Zoom Pegasus 40",
+            "category": "running shoes",
+            "price": 130,
+            "brand": "Nike",
+            "description": "Responsive cushioning for everyday runs",
+            "rating": 4.5,
+            "in_stock": true
+        },
+        {
+            "id": "2",
+            "name": "Adidas Ultraboost Light",
+            "category": "running shoes",
+            "price": 190,
+            "brand": "Adidas",
+            "description": "Lightweight and energy-returning",
+            "rating": 4.7,
+            "in_stock": true
+        },
+        {
+            "id": "3",
+            "name": "New Balance Fresh Foam 1080v13",
+            "category": "running shoes",
+            "price": 165,
+            "brand": "New Balance",
+            "description": "Maximum cushioning for long distances",
+            "rating": 4.6,
+            "in_stock": false
+        },
+        {
+            "id": "4",
+            "name": "ASICS Gel-Kayano 30",
+            "category": "running shoes",
+            "price": 180,
+            "brand": "ASICS",
+            "description": "Stability shoe for overpronators",
+            "rating": 4.4,
+            "in_stock": true
+        },
+        {
+            "id": "5",
+            "name": "Brooks Ghost 15",
+            "category": "running shoes",
+            "price": 140,
+            "brand": "Brooks",
+            "description": "Smooth transitions and soft cushioning",
+            "rating": 4.6,
+            "in_stock": true
+        },
+        {
+            "id": "6",
+            "name": "Sony WH-1000XM5",
+            "category": "headphones",
+            "price": 350,
+            "brand": "Sony",
+            "description": "Industry-leading noise cancellation",
+            "rating": 4.8,
+            "in_stock": true
+        },
+        {
+            "id": "7",
+            "name": "Apple AirPods Pro 2",
+            "category": "headphones",
+            "price": 249,
+            "brand": "Apple",
+            "description": "Active noise cancellation with spatial audio",
+            "rating": 4.7,
+            "in_stock": true
+        },
+        {
+            "id": "8",
+            "name": "Samsung Galaxy Watch 6",
+            "category": "smartwatch",
+            "price": 299,
+            "brand": "Samsung",
+            "description": "Advanced health tracking and fitness features",
+            "rating": 4.3,
+            "in_stock": true
+        },
+        {
+            "id": "9",
+            "name": "Kindle Paperwhite",
+            "category": "e-reader",
+            "price": 139,
+            "brand": "Amazon",
+            "description": "Glare-free display, waterproof design",
+            "rating": 4.6,
+            "in_stock": true
+        },
+        {
+            "id": "10",
+            "name": "Anker PowerCore 10000",
+            "category": "portable charger",
+            "price": 25,
+            "brand": "Anker",
+            "description": "Compact portable charger with fast charging",
+            "rating": 4.5,
+            "in_stock": true
+        }
+    ]
+}
